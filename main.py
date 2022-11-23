@@ -6,4 +6,7 @@ load_dotenv()
 
 ACCESS_TOKEN = os.getenv('TOKEN')
 
-print(ACCESS_TOKEN)
+g = Github(ACCESS_TOKEN)
+
+
+print(g)
